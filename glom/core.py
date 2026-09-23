@@ -2392,7 +2392,7 @@ def register(target_type, **kwargs):
     """Register *target_type* so :meth:`~Glommer.glom()` will
     know how to handle instances of that type as targets.
 
-    Here's an example of adding basic iterabile support for Django's ORM:
+    Here's an example of adding basic iterable support for Django's ORM:
 
     .. code-block:: python
 
