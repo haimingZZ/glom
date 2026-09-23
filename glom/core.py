@@ -452,7 +452,7 @@ class BadSpec(GlomError, TypeError):
 class UnregisteredTarget(GlomError):
     """This :class:`GlomError` subtype is raised when a spec calls for an
     unsupported action on a target type. For instance, trying to
-    iterate on an non-iterable target:
+    iterate on a non-iterable target:
 
     >>> glom(object(), ['a.b.c'])
     Traceback (most recent call last):
